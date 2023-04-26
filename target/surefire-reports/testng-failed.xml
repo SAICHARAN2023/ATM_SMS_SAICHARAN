@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="AMS_GENERIC_LIBRARY.GENERIC_LISTENER_IMPLEMENTATION"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="AMS_TESTSUITS.ADMIN_DASHBOARD">
+        <methods>
+          <include name="AdminLogoutsetup"/>
+          <include name="teardown"/>
+          <include name="Test_Dashboard"/>
+          <include name="Browsersetup"/>
+          <include name="AdminLoginsetup"/>
+        </methods>
+      </class> <!-- AMS_TESTSUITS.ADMIN_DASHBOARD -->
+      <class name="AMS_TESTSUITS.ADMIN_EDV">
+        <methods>
+          <include name="AdminLogoutsetup"/>
+          <include name="EDV"/>
+          <include name="teardown"/>
+          <include name="Browsersetup"/>
+          <include name="AdminLoginsetup"/>
+        </methods>
+      </class> <!-- AMS_TESTSUITS.ADMIN_EDV -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

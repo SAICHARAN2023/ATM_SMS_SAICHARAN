@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T00:07:55 IST" name="Suite" finished-at="2023-04-27T00:09:11 IST" duration-ms="75569">
+    <groups>
+    </groups>
+    <test started-at="2023-04-27T00:07:55 IST" name="Test" finished-at="2023-04-27T00:09:11 IST" duration-ms="75569">
+      <class name="AMS_TESTSUITS.ADMIN_EDV">
+        <test-method is-config="true" signature="Browsersetup(java.lang.String)[pri:0, instance:AMS_TESTSUITS.ADMIN_EDV@173ed316]" started-at="2023-04-27T00:08:35 IST" name="Browsersetup" finished-at="2023-04-27T00:08:39 IST" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method is-config="true" signature="AdminLoginsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_EDV@173ed316]" started-at="2023-04-27T00:08:39 IST" name="AdminLoginsetup" finished-at="2023-04-27T00:08:44 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginsetup -->
+        <test-method signature="EDV()[pri:0, instance:AMS_TESTSUITS.ADMIN_EDV@173ed316]" started-at="2023-04-27T00:08:44 IST" name="EDV" finished-at="2023-04-27T00:09:09 IST" duration-ms="25009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EDV -->
+        <test-method is-config="true" signature="AdminLogoutsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_EDV@173ed316]" started-at="2023-04-27T00:09:10 IST" name="AdminLogoutsetup" finished-at="2023-04-27T00:09:11 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogoutsetup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AMS_TESTSUITS.ADMIN_EDV@173ed316]" started-at="2023-04-27T00:09:11 IST" name="teardown" finished-at="2023-04-27T00:09:11 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AMS_TESTSUITS.ADMIN_EDV -->
+      <class name="AMS_TESTSUITS.ADMIN_DASHBOARD">
+        <test-method is-config="true" signature="Browsersetup(java.lang.String)[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:07:56 IST" name="Browsersetup" finished-at="2023-04-27T00:08:04 IST" duration-ms="7849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method is-config="true" signature="AdminLoginsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:05 IST" name="AdminLoginsetup" finished-at="2023-04-27T00:08:08 IST" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginsetup -->
+        <test-method signature="Test_Dashboard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:08 IST" name="Test_Dashboard" data-provider="ATSMS_DB_ATENTRY" finished-at="2023-04-27T00:08:14 IST" duration-ms="5816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Auto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9676025750]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2580]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[458900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Dashboard -->
+        <test-method is-config="true" signature="AdminLogoutsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:15 IST" name="AdminLogoutsetup" finished-at="2023-04-27T00:08:16 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogoutsetup -->
+        <test-method is-config="true" signature="AdminLoginsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:16 IST" name="AdminLoginsetup" finished-at="2023-04-27T00:08:18 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginsetup -->
+        <test-method signature="Test_Dashboard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:18 IST" name="Test_Dashboard" data-provider="ATSMS_DB_ATENTRY" finished-at="2023-04-27T00:08:24 IST" duration-ms="5666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taxi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[charan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7036420206]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2590]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[458700]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Dashboard -->
+        <test-method is-config="true" signature="AdminLogoutsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:24 IST" name="AdminLogoutsetup" finished-at="2023-04-27T00:08:25 IST" duration-ms="899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogoutsetup -->
+        <test-method is-config="true" signature="AdminLoginsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:25 IST" name="AdminLoginsetup" finished-at="2023-04-27T00:08:27 IST" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginsetup -->
+        <test-method signature="Test_Dashboard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:27 IST" name="Test_Dashboard" data-provider="ATSMS_DB_ATENTRY" finished-at="2023-04-27T00:08:33 IST" duration-ms="5876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Auto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8790262094]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2690]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[458600]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Dashboard -->
+        <test-method is-config="true" signature="AdminLogoutsetup()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:33 IST" name="AdminLogoutsetup" finished-at="2023-04-27T00:08:34 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogoutsetup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AMS_TESTSUITS.ADMIN_DASHBOARD@7d0b7e3c]" started-at="2023-04-27T00:08:34 IST" name="teardown" finished-at="2023-04-27T00:08:35 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AMS_TESTSUITS.ADMIN_DASHBOARD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
