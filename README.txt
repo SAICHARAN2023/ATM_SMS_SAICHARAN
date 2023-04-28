@@ -528,3 +528,27 @@ branch 'master' set up to track 'origin/master'.
 
 u@DESKTOP-1D3CBA8 MINGW64 ~/Desktop/PAYTMPEBANK/ATSMS-1_HARDCOPY (master)
 $
+
+u@DESKTOP-1D3CBA8 MINGW64 ~/Desktop/PAYTMPEBANK/ATSMS-1_HARDCOPY (master)
+$ git add -A
+
+u@DESKTOP-1D3CBA8 MINGW64 ~/Desktop/PAYTMPEBANK/ATSMS-1_HARDCOPY (master)
+$ git commit -m "this is firth commit"                                          [master b2330de] this is firth commit
+ 5 files changed, 610 insertions(+), 691 deletions(-)
+
+u@DESKTOP-1D3CBA8 MINGW64 ~/Desktop/PAYTMPEBANK/ATSMS-1_HARDCOPY (master)
+$ git push -u origin master
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 5.78 KiB | 1.16 MiB/s, done.
+Total 15 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), completed with 11 local objects.
+To https://github.com/SAICHARAN2023/ATM_SMS_SAICHARAN.git
+   075a905..b2330de  master -> master
+branch 'master' set up to track 'origin/master'.
+
+u@DESKTOP-1D3CBA8 MINGW64 ~/Desktop/PAYTMPEBANK/ATSMS-1_HARDCOPY (master)
+$
+
