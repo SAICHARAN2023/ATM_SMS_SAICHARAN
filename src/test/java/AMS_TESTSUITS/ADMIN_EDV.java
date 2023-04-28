@@ -17,10 +17,10 @@ public class ADMIN_EDV extends TEST_BASEPAGE {
 	
 	while(true) {
 		try {
-		Thread.sleep(5000);
+		
 	ENT.AMS_ALLDELETE();
 	logger.info("***clicked on delete****");
-	Thread.sleep(1000);
+	
 
 	
 	}catch(Exception e) {
