@@ -14,16 +14,18 @@ public class ADMIN_EDV extends TEST_BASEPAGE {
 	logger.info("***clicked on manage entry autotaxi****");
 	ENT.AMS_ALL();
 	logger.info("***clicked on all****");
-	try {
+	
 	while(true) {
+		try {
+		Thread.sleep(5000);
 	ENT.AMS_ALLDELETE();
 	logger.info("***clicked on delete****");
 	Thread.sleep(1000);
-	Alert alt1=driver.switchTo().alert();
-	alt1.accept();
-	}
+
+	
 	}catch(Exception e) {
 		e.getMessage();
+	}
 	}
 	
 }

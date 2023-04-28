@@ -1,5 +1,6 @@
 package AMS_PAGEOBJECTS;
 
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,8 +36,10 @@ public class POR_MANAGENTRY extends BASEPAGE{
 	public void AMS_ALLDELETE() {
 		
 		AMS_ALLDELETE.click();
-		Alert alt1=driver.switchTo().alert();
-		alt1.accept();
+	
+		wLib.acceptAlert(driver);
+		wLib.acceptAlert(driver);
+		
 	}
 	
 	
