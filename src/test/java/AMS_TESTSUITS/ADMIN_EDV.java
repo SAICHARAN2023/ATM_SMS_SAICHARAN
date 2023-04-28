@@ -15,7 +15,7 @@ public class ADMIN_EDV extends TEST_BASEPAGE {
 	ENT.AMS_ALL();
 	logger.info("***clicked on all****");
 	
-	while(true) {
+	/*while(true) {
 		try {
 		
 	ENT.AMS_ALLDELETE();
@@ -25,7 +25,7 @@ public class ADMIN_EDV extends TEST_BASEPAGE {
 	
 	}catch(Exception e) {
 		e.getMessage();
-	}
+	}*/
 	}
 	
 }
