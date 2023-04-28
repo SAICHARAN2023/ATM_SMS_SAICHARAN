@@ -25,8 +25,8 @@ public class ADMIN_EDV extends TEST_BASEPAGE {
 	
 	}catch(Exception e) {
 		e.getMessage();
-	}*/
 	}
+	}*/
 	
 }
 	
